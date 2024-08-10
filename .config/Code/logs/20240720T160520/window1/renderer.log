@@ -1,0 +1,9 @@
+2024-07-20 16:05:25.115 [info] Started local extension host with pid 816.
+2024-07-20 16:05:26.025 [info] Started initializing default profile extensions in extensions installation folder. file:///home/gerberti/.vscode/extensions
+2024-07-20 16:05:29.033 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/gerberti/.vscode/extensions
+2024-07-20 16:05:33.545 [info] [perf] Render performance baseline is 87ms
+2024-07-20 16:09:42.115 [error] Request textDocument/codeAction failed with message: index is out of range: Error: Request textDocument/codeAction failed with message: index is out of range
+	at ae (/home/gerberti/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:1947043)
+	at oe (/home/gerberti/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:1945003)
+	at Immediate.<anonymous> (/home/gerberti/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:1941297)
+	at process.processImmediate (node:internal/timers:478:21)

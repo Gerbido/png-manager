@@ -1,0 +1,641 @@
+0 verbose cli /usr/bin/node /usr/share/nodejs/npm/bin/npm-cli.js
+1 info using npm@9.2.0
+2 info using node@v18.19.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 5ms
+5 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 4ms
+6 timing config:load:builtin Completed in 4ms
+7 timing config:load:cli Completed in 4ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/home/gerberti/png-manager/.npmrc Completed in 1ms
+10 timing config:load:project Completed in 4ms
+11 timing config:load:file:/home/gerberti/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 2ms
+16 timing config:load Completed in 23ms
+17 timing npm:load:configload Completed in 23ms
+18 timing npm:load:mkdirpcache Completed in 0ms
+19 timing npm:load:mkdirplogs Completed in 1ms
+20 verbose title npm exec create-react-app .
+21 verbose argv "exec" "--" "create-react-app" "."
+22 timing npm:load:setTitle Completed in 3ms
+23 timing config:load:flatten Completed in 8ms
+24 timing npm:load:display Completed in 11ms
+25 verbose logfile logs-max:10 dir:/home/gerberti/.npm/_logs/2024-08-10T21_12_41_997Z-
+26 verbose logfile /home/gerberti/.npm/_logs/2024-08-10T21_12_41_997Z-debug-0.log
+27 timing npm:load:logFile Completed in 10ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 50ms
+31 silly logfile done cleaning log files
+32 timing arborist:ctor Completed in 7ms
+33 http fetch GET 200 https://registry.npmjs.org/create-react-app 1456ms (cache miss)
+34 timing arborist:ctor Completed in 0ms
+35 timing arborist:ctor Completed in 0ms
+36 timing arborist:ctor Completed in 1ms
+37 timing idealTree:init Completed in 14ms
+38 timing idealTree:userRequests Completed in 7ms
+39 silly idealTree buildDeps
+40 silly fetch manifest create-react-app@5.0.1
+41 http fetch GET 200 https://registry.npmjs.org/create-react-app 54ms (cache hit)
+42 silly placeDep ROOT create-react-app@5.0.1 OK for:  want: 5.0.1
+43 silly fetch manifest chalk@^4.1.2
+44 silly fetch manifest commander@^4.1.1
+45 silly fetch manifest cross-spawn@^7.0.3
+46 silly fetch manifest envinfo@^7.8.1
+47 silly fetch manifest fs-extra@^10.0.0
+48 silly fetch manifest hyperquest@^2.1.3
+49 silly fetch manifest prompts@^2.4.2
+50 silly fetch manifest semver@^7.3.5
+51 silly fetch manifest tar-pack@^3.4.1
+52 silly fetch manifest tmp@^0.2.1
+53 silly fetch manifest validate-npm-package-name@^3.0.0
+54 http fetch GET 200 https://registry.npmjs.org/chalk 394ms (cache miss)
+55 http fetch GET 200 https://registry.npmjs.org/tmp 614ms (cache miss)
+56 http fetch GET 200 https://registry.npmjs.org/cross-spawn 629ms (cache miss)
+57 http fetch GET 200 https://registry.npmjs.org/prompts 635ms (cache miss)
+58 http fetch GET 200 https://registry.npmjs.org/validate-npm-package-name 630ms (cache miss)
+59 http fetch GET 200 https://registry.npmjs.org/fs-extra 650ms (cache miss)
+60 http fetch GET 200 https://registry.npmjs.org/semver 670ms (cache miss)
+61 http fetch GET 200 https://registry.npmjs.org/commander 689ms (cache miss)
+62 http fetch GET 200 https://registry.npmjs.org/hyperquest 1165ms (cache miss)
+63 http fetch GET 200 https://registry.npmjs.org/tar-pack 1160ms (cache miss)
+64 http fetch GET 200 https://registry.npmjs.org/envinfo 1175ms (cache miss)
+65 timing idealTree:#root Completed in 1272ms
+66 silly placeDep ROOT chalk@4.1.2 OK for: create-react-app@5.0.1 want: ^4.1.2
+67 silly placeDep ROOT commander@4.1.1 OK for: create-react-app@5.0.1 want: ^4.1.1
+68 silly placeDep ROOT cross-spawn@7.0.3 OK for: create-react-app@5.0.1 want: ^7.0.3
+69 silly placeDep ROOT envinfo@7.13.0 OK for: create-react-app@5.0.1 want: ^7.8.1
+70 silly placeDep ROOT fs-extra@10.1.0 OK for: create-react-app@5.0.1 want: ^10.0.0
+71 silly placeDep ROOT hyperquest@2.1.3 OK for: create-react-app@5.0.1 want: ^2.1.3
+72 silly placeDep ROOT prompts@2.4.2 OK for: create-react-app@5.0.1 want: ^2.4.2
+73 silly placeDep ROOT semver@7.6.3 OK for: create-react-app@5.0.1 want: ^7.3.5
+74 silly placeDep ROOT tar-pack@3.4.1 OK for: create-react-app@5.0.1 want: ^3.4.1
+75 silly placeDep ROOT tmp@0.2.3 OK for: create-react-app@5.0.1 want: ^0.2.1
+76 silly placeDep ROOT validate-npm-package-name@3.0.0 OK for: create-react-app@5.0.1 want: ^3.0.0
+77 silly fetch manifest ansi-styles@^4.1.0
+78 silly fetch manifest supports-color@^7.1.0
+79 silly fetch manifest path-key@^3.1.0
+80 silly fetch manifest shebang-command@^2.0.0
+81 silly fetch manifest which@^2.0.1
+82 silly fetch manifest graceful-fs@^4.2.0
+83 silly fetch manifest jsonfile@^6.0.1
+84 silly fetch manifest universalify@^2.0.0
+85 silly fetch manifest buffer-from@^0.1.1
+86 silly fetch manifest duplexer2@~0.0.2
+87 silly fetch manifest through2@~0.6.3
+88 silly fetch manifest kleur@^3.0.3
+89 silly fetch manifest sisteransi@^1.0.5
+90 silly fetch manifest debug@^2.2.0
+91 silly fetch manifest fstream@^1.0.10
+92 silly fetch manifest fstream-ignore@^1.0.5
+93 silly fetch manifest once@^1.3.3
+94 silly fetch manifest readable-stream@^2.1.4
+95 silly fetch manifest rimraf@^2.5.1
+96 silly fetch manifest tar@^2.2.1
+97 silly fetch manifest uid-number@^0.0.6
+98 silly fetch manifest builtins@^1.0.3
+99 http fetch GET 200 https://registry.npmjs.org/shebang-command 202ms (cache miss)
+100 http fetch GET 200 https://registry.npmjs.org/path-key 302ms (cache miss)
+101 http fetch GET 200 https://registry.npmjs.org/ansi-styles 333ms (cache miss)
+102 http fetch GET 200 https://registry.npmjs.org/supports-color 402ms (cache miss)
+103 http fetch GET 200 https://registry.npmjs.org/which 425ms (cache miss)
+104 http fetch GET 200 https://registry.npmjs.org/universalify 494ms (cache miss)
+105 http fetch GET 200 https://registry.npmjs.org/fstream-ignore 479ms (cache miss)
+106 http fetch GET 200 https://registry.npmjs.org/duplexer2 492ms (cache miss)
+107 http fetch GET 200 https://registry.npmjs.org/once 495ms (cache miss)
+108 http fetch GET 200 https://registry.npmjs.org/jsonfile 523ms (cache miss)
+109 http fetch GET 200 https://registry.npmjs.org/buffer-from 523ms (cache miss)
+110 http fetch GET 200 https://registry.npmjs.org/uid-number 501ms (cache miss)
+111 http fetch GET 200 https://registry.npmjs.org/graceful-fs 534ms (cache miss)
+112 http fetch GET 200 https://registry.npmjs.org/builtins 515ms (cache miss)
+113 http fetch GET 200 https://registry.npmjs.org/sisteransi 550ms (cache miss)
+114 http fetch GET 200 https://registry.npmjs.org/tar 546ms (cache miss)
+115 http fetch GET 200 https://registry.npmjs.org/fstream 575ms (cache miss)
+116 http fetch GET 200 https://registry.npmjs.org/rimraf 570ms (cache miss)
+117 http fetch GET 200 https://registry.npmjs.org/kleur 596ms (cache miss)
+118 http fetch GET 200 https://registry.npmjs.org/debug 601ms (cache miss)
+119 http fetch GET 200 https://registry.npmjs.org/through2 821ms (cache miss)
+120 http fetch GET 200 https://registry.npmjs.org/readable-stream 813ms (cache miss)
+121 timing idealTree:node_modules/create-react-app Completed in 906ms
+122 silly placeDep ROOT ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+123 silly placeDep ROOT supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+124 silly fetch manifest color-convert@^2.0.1
+125 silly fetch manifest has-flag@^4.0.0
+126 http fetch GET 200 https://registry.npmjs.org/color-convert 189ms (cache miss)
+127 http fetch GET 200 https://registry.npmjs.org/has-flag 189ms (cache miss)
+128 timing idealTree:node_modules/chalk Completed in 208ms
+129 silly placeDep ROOT color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+130 silly fetch manifest color-name@~1.1.4
+131 http fetch GET 200 https://registry.npmjs.org/color-name 100ms (cache miss)
+132 timing idealTree:node_modules/ansi-styles Completed in 113ms
+133 silly placeDep ROOT color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+134 timing idealTree:node_modules/color-convert Completed in 8ms
+135 timing idealTree:node_modules/color-name Completed in 0ms
+136 timing idealTree:node_modules/commander Completed in 1ms
+137 silly placeDep ROOT path-key@3.1.1 OK for: cross-spawn@7.0.3 want: ^3.1.0
+138 silly placeDep ROOT shebang-command@2.0.0 OK for: cross-spawn@7.0.3 want: ^2.0.0
+139 silly placeDep ROOT which@2.0.2 OK for: cross-spawn@7.0.3 want: ^2.0.1
+140 silly fetch manifest shebang-regex@^3.0.0
+141 silly fetch manifest isexe@^2.0.0
+142 http fetch GET 200 https://registry.npmjs.org/shebang-regex 148ms (cache miss)
+143 http fetch GET 200 https://registry.npmjs.org/isexe 148ms (cache miss)
+144 timing idealTree:node_modules/cross-spawn Completed in 171ms
+145 timing idealTree:node_modules/envinfo Completed in 1ms
+146 silly placeDep ROOT graceful-fs@4.2.11 OK for: fs-extra@10.1.0 want: ^4.2.0
+147 silly placeDep ROOT jsonfile@6.1.0 OK for: fs-extra@10.1.0 want: ^6.0.1
+148 silly placeDep ROOT universalify@2.0.1 OK for: fs-extra@10.1.0 want: ^2.0.0
+149 timing idealTree:node_modules/fs-extra Completed in 13ms
+150 timing idealTree:node_modules/graceful-fs Completed in 0ms
+151 silly placeDep ROOT buffer-from@0.1.2 OK for: hyperquest@2.1.3 want: ^0.1.1
+152 silly placeDep ROOT duplexer2@0.0.2 OK for: hyperquest@2.1.3 want: ~0.0.2
+153 silly placeDep ROOT through2@0.6.5 OK for: hyperquest@2.1.3 want: ~0.6.3
+154 silly fetch manifest readable-stream@~1.1.9
+155 silly fetch manifest readable-stream@>=1.0.33-1 <1.1.0-0
+156 silly fetch manifest xtend@>=4.0.0 <4.1.0-0
+157 http fetch GET 200 https://registry.npmjs.org/xtend 187ms (cache miss)
+158 timing idealTree:node_modules/hyperquest Completed in 218ms
+159 timing idealTree:node_modules/buffer-from Completed in 0ms
+160 silly placeDep ROOT readable-stream@1.1.14 OK for: duplexer2@0.0.2 want: ~1.1.9
+161 silly fetch manifest core-util-is@~1.0.0
+162 silly fetch manifest isarray@0.0.1
+163 silly fetch manifest string_decoder@~0.10.x
+164 silly fetch manifest inherits@~2.0.1
+165 http fetch GET 200 https://registry.npmjs.org/core-util-is 109ms (cache miss)
+166 http fetch GET 200 https://registry.npmjs.org/isarray 159ms (cache miss)
+167 http fetch GET 200 https://registry.npmjs.org/inherits 156ms (cache miss)
+168 http fetch GET 200 https://registry.npmjs.org/string_decoder 158ms (cache miss)
+169 timing idealTree:node_modules/duplexer2 Completed in 170ms
+170 timing idealTree:node_modules/jsonfile Completed in 0ms
+171 timing idealTree:node_modules/path-key Completed in 0ms
+172 silly placeDep ROOT kleur@3.0.3 OK for: prompts@2.4.2 want: ^3.0.3
+173 silly placeDep ROOT sisteransi@1.0.5 OK for: prompts@2.4.2 want: ^1.0.5
+174 timing idealTree:node_modules/prompts Completed in 6ms
+175 timing idealTree:node_modules/kleur Completed in 0ms
+176 silly placeDep ROOT core-util-is@1.0.3 OK for: readable-stream@1.1.14 want: ~1.0.0
+177 silly placeDep ROOT inherits@2.0.4 OK for: readable-stream@1.1.14 want: ~2.0.1
+178 silly placeDep ROOT isarray@0.0.1 OK for: readable-stream@1.1.14 want: 0.0.1
+179 silly placeDep ROOT string_decoder@0.10.31 OK for: readable-stream@1.1.14 want: ~0.10.x
+180 timing idealTree:node_modules/readable-stream Completed in 7ms
+181 timing idealTree:node_modules/core-util-is Completed in 0ms
+182 timing idealTree:node_modules/inherits Completed in 0ms
+183 timing idealTree:node_modules/isarray Completed in 0ms
+184 timing idealTree:node_modules/semver Completed in 0ms
+185 silly placeDep ROOT shebang-regex@3.0.0 OK for: shebang-command@2.0.0 want: ^3.0.0
+186 timing idealTree:node_modules/shebang-command Completed in 4ms
+187 timing idealTree:node_modules/shebang-regex Completed in 0ms
+188 timing idealTree:node_modules/sisteransi Completed in 0ms
+189 timing idealTree:node_modules/string_decoder Completed in 0ms
+190 silly placeDep ROOT has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+191 timing idealTree:node_modules/supports-color Completed in 2ms
+192 timing idealTree:node_modules/has-flag Completed in 0ms
+193 silly placeDep ROOT debug@2.6.9 OK for: tar-pack@3.4.1 want: ^2.2.0
+194 silly placeDep ROOT fstream@1.0.12 OK for: tar-pack@3.4.1 want: ^1.0.10
+195 silly placeDep ROOT fstream-ignore@1.0.5 OK for: tar-pack@3.4.1 want: ^1.0.5
+196 silly placeDep ROOT once@1.4.0 OK for: tar-pack@3.4.1 want: ^1.3.3
+197 silly placeDep node_modules/tar-pack readable-stream@2.3.8 OK for: tar-pack@3.4.1 want: ^2.1.4
+198 silly placeDep ROOT rimraf@2.7.1 OK for: tar-pack@3.4.1 want: ^2.5.1
+199 silly placeDep ROOT tar@2.2.2 OK for: tar-pack@3.4.1 want: ^2.2.1
+200 silly placeDep ROOT uid-number@0.0.6 OK for: tar-pack@3.4.1 want: ^0.0.6
+201 silly fetch manifest ms@2.0.0
+202 silly fetch manifest mkdirp@>=0.5 0
+203 silly fetch manifest minimatch@^3.0.0
+204 silly fetch manifest wrappy@1
+205 silly fetch manifest isarray@~1.0.0
+206 silly fetch manifest process-nextick-args@~2.0.0
+207 silly fetch manifest safe-buffer@~5.1.1
+208 silly fetch manifest string_decoder@~1.1.1
+209 silly fetch manifest util-deprecate@~1.0.1
+210 silly fetch manifest glob@^7.1.3
+211 silly fetch manifest block-stream@*
+212 http fetch GET 200 https://registry.npmjs.org/wrappy 270ms (cache miss)
+213 http fetch GET 200 https://registry.npmjs.org/mkdirp 277ms (cache miss)
+214 http fetch GET 200 https://registry.npmjs.org/util-deprecate 277ms (cache miss)
+215 http fetch GET 200 https://registry.npmjs.org/block-stream 279ms (cache miss)
+216 http fetch GET 200 https://registry.npmjs.org/process-nextick-args 288ms (cache miss)
+217 http fetch GET 200 https://registry.npmjs.org/safe-buffer 295ms (cache miss)
+218 http fetch GET 200 https://registry.npmjs.org/ms 315ms (cache miss)
+219 http fetch GET 200 https://registry.npmjs.org/minimatch 318ms (cache miss)
+220 http fetch GET 200 https://registry.npmjs.org/glob 390ms (cache miss)
+221 timing idealTree:node_modules/tar-pack Completed in 450ms
+222 silly placeDep ROOT ms@2.0.0 OK for: debug@2.6.9 want: 2.0.0
+223 timing idealTree:node_modules/debug Completed in 4ms
+224 silly placeDep ROOT mkdirp@0.5.6 OK for: fstream@1.0.12 want: >=0.5 0
+225 silly fetch manifest minimist@^1.2.6
+226 http fetch GET 200 https://registry.npmjs.org/minimist 180ms (cache miss)
+227 timing idealTree:node_modules/fstream Completed in 188ms
+228 silly placeDep ROOT minimatch@3.1.2 OK for: fstream-ignore@1.0.5 want: ^3.0.0
+229 silly fetch manifest brace-expansion@^1.1.7
+230 http fetch GET 200 https://registry.npmjs.org/brace-expansion 142ms (cache miss)
+231 timing idealTree:node_modules/fstream-ignore Completed in 151ms
+232 silly placeDep ROOT brace-expansion@1.1.11 OK for: minimatch@3.1.2 want: ^1.1.7
+233 silly fetch manifest balanced-match@^1.0.0
+234 silly fetch manifest concat-map@0.0.1
+235 http fetch GET 200 https://registry.npmjs.org/concat-map 186ms (cache miss)
+236 http fetch GET 200 https://registry.npmjs.org/balanced-match 189ms (cache miss)
+237 timing idealTree:node_modules/minimatch Completed in 205ms
+238 silly placeDep ROOT balanced-match@1.0.2 OK for: brace-expansion@1.1.11 want: ^1.0.0
+239 silly placeDep ROOT concat-map@0.0.1 OK for: brace-expansion@1.1.11 want: 0.0.1
+240 timing idealTree:node_modules/brace-expansion Completed in 9ms
+241 timing idealTree:node_modules/balanced-match Completed in 0ms
+242 timing idealTree:node_modules/concat-map Completed in 0ms
+243 silly placeDep ROOT minimist@1.2.8 OK for: mkdirp@0.5.6 want: ^1.2.6
+244 timing idealTree:node_modules/mkdirp Completed in 3ms
+245 timing idealTree:node_modules/minimist Completed in 0ms
+246 timing idealTree:node_modules/ms Completed in 0ms
+247 silly placeDep ROOT wrappy@1.0.2 OK for: once@1.4.0 want: 1
+248 timing idealTree:node_modules/once Completed in 4ms
+249 silly placeDep ROOT glob@7.2.3 OK for: rimraf@2.7.1 want: ^7.1.3
+250 silly fetch manifest inflight@^1.0.4
+251 silly fetch manifest fs.realpath@^1.0.0
+252 silly fetch manifest path-is-absolute@^1.0.0
+253 http fetch GET 200 https://registry.npmjs.org/path-is-absolute 171ms (cache miss)
+254 http fetch GET 200 https://registry.npmjs.org/inflight 230ms (cache miss)
+255 http fetch GET 200 https://registry.npmjs.org/fs.realpath 759ms (cache miss)
+256 timing idealTree:node_modules/rimraf Completed in 768ms
+257 silly placeDep ROOT fs.realpath@1.0.0 OK for: glob@7.2.3 want: ^1.0.0
+258 silly placeDep ROOT inflight@1.0.6 OK for: glob@7.2.3 want: ^1.0.4
+259 silly placeDep ROOT path-is-absolute@1.0.1 OK for: glob@7.2.3 want: ^1.0.0
+260 timing idealTree:node_modules/glob Completed in 15ms
+261 timing idealTree:node_modules/fs.realpath Completed in 0ms
+262 timing idealTree:node_modules/inflight Completed in 0ms
+263 timing idealTree:node_modules/path-is-absolute Completed in 0ms
+264 silly placeDep ROOT block-stream@0.0.9 OK for: tar@2.2.2 want: *
+265 timing idealTree:node_modules/tar Completed in 3ms
+266 timing idealTree:node_modules/block-stream Completed in 0ms
+267 silly placeDep node_modules/through2 readable-stream@1.0.34 OK for: through2@0.6.5 want: >=1.0.33-1 <1.1.0-0
+268 silly placeDep ROOT xtend@4.0.2 OK for: through2@0.6.5 want: >=4.0.0 <4.1.0-0
+269 timing idealTree:node_modules/through2 Completed in 7ms
+270 timing idealTree:node_modules/tmp Completed in 0ms
+271 timing idealTree:node_modules/uid-number Completed in 0ms
+272 timing idealTree:node_modules/universalify Completed in 0ms
+273 silly placeDep ROOT builtins@1.0.3 OK for: validate-npm-package-name@3.0.0 want: ^1.0.3
+274 timing idealTree:node_modules/validate-npm-package-name Completed in 2ms
+275 timing idealTree:node_modules/builtins Completed in 0ms
+276 silly placeDep ROOT isexe@2.0.0 OK for: which@2.0.2 want: ^2.0.0
+277 timing idealTree:node_modules/which Completed in 2ms
+278 timing idealTree:node_modules/isexe Completed in 0ms
+279 timing idealTree:node_modules/wrappy Completed in 0ms
+280 timing idealTree:node_modules/xtend Completed in 0ms
+281 silly placeDep node_modules/tar-pack isarray@1.0.0 OK for: readable-stream@2.3.8 want: ~1.0.0
+282 silly placeDep ROOT process-nextick-args@2.0.1 OK for: readable-stream@2.3.8 want: ~2.0.0
+283 silly placeDep ROOT safe-buffer@5.1.2 OK for: readable-stream@2.3.8 want: ~5.1.1
+284 silly placeDep node_modules/tar-pack string_decoder@1.1.1 OK for: readable-stream@2.3.8 want: ~1.1.1
+285 silly placeDep ROOT util-deprecate@1.0.2 OK for: readable-stream@2.3.8 want: ~1.0.1
+286 timing idealTree:node_modules/tar-pack/node_modules/readable-stream Completed in 12ms
+287 timing idealTree:node_modules/process-nextick-args Completed in 0ms
+288 timing idealTree:node_modules/safe-buffer Completed in 0ms
+289 timing idealTree:node_modules/util-deprecate Completed in 0ms
+290 timing idealTree:node_modules/tar-pack/node_modules/isarray Completed in 0ms
+291 timing idealTree:node_modules/tar-pack/node_modules/string_decoder Completed in 0ms
+292 timing idealTree:node_modules/through2/node_modules/readable-stream Completed in 0ms
+293 timing idealTree:buildDeps Completed in 4945ms
+294 timing idealTree:fixDepFlags Completed in 2ms
+295 timing idealTree Completed in 4973ms
+296 timing reify:loadTrees Completed in 4973ms
+297 timing reify:diffTrees Completed in 4ms
+298 silly reify moves {}
+299 timing reify:retireShallow Completed in 2ms
+300 timing reify:createSparse Completed in 18ms
+301 timing reify:loadBundles Completed in 0ms
+302 silly audit bulk request {
+302 silly audit   'create-react-app': [ '5.0.1' ],
+302 silly audit   chalk: [ '4.1.2' ],
+302 silly audit   commander: [ '4.1.1' ],
+302 silly audit   'cross-spawn': [ '7.0.3' ],
+302 silly audit   envinfo: [ '7.13.0' ],
+302 silly audit   'fs-extra': [ '10.1.0' ],
+302 silly audit   hyperquest: [ '2.1.3' ],
+302 silly audit   prompts: [ '2.4.2' ],
+302 silly audit   semver: [ '7.6.3' ],
+302 silly audit   'tar-pack': [ '3.4.1' ],
+302 silly audit   tmp: [ '0.2.3' ],
+302 silly audit   'validate-npm-package-name': [ '3.0.0' ],
+302 silly audit   'ansi-styles': [ '4.3.0' ],
+302 silly audit   'supports-color': [ '7.2.0' ],
+302 silly audit   'color-convert': [ '2.0.1' ],
+302 silly audit   'color-name': [ '1.1.4' ],
+302 silly audit   'path-key': [ '3.1.1' ],
+302 silly audit   'shebang-command': [ '2.0.0' ],
+302 silly audit   which: [ '2.0.2' ],
+302 silly audit   'graceful-fs': [ '4.2.11' ],
+302 silly audit   jsonfile: [ '6.1.0' ],
+302 silly audit   universalify: [ '2.0.1' ],
+302 silly audit   'buffer-from': [ '0.1.2' ],
+302 silly audit   duplexer2: [ '0.0.2' ],
+302 silly audit   through2: [ '0.6.5' ],
+302 silly audit   'readable-stream': [ '1.1.14', '2.3.8', '1.0.34' ],
+302 silly audit   kleur: [ '3.0.3' ],
+302 silly audit   sisteransi: [ '1.0.5' ],
+302 silly audit   'core-util-is': [ '1.0.3' ],
+302 silly audit   inherits: [ '2.0.4' ],
+302 silly audit   isarray: [ '0.0.1', '1.0.0' ],
+302 silly audit   string_decoder: [ '0.10.31', '1.1.1' ],
+302 silly audit   'shebang-regex': [ '3.0.0' ],
+302 silly audit   'has-flag': [ '4.0.0' ],
+302 silly audit   debug: [ '2.6.9' ],
+302 silly audit   fstream: [ '1.0.12' ],
+302 silly audit   'fstream-ignore': [ '1.0.5' ],
+302 silly audit   once: [ '1.4.0' ],
+302 silly audit   rimraf: [ '2.7.1' ],
+302 silly audit   tar: [ '2.2.2' ],
+302 silly audit   'uid-number': [ '0.0.6' ],
+302 silly audit   ms: [ '2.0.0' ],
+302 silly audit   mkdirp: [ '0.5.6' ],
+302 silly audit   minimatch: [ '3.1.2' ],
+302 silly audit   'brace-expansion': [ '1.1.11' ],
+302 silly audit   'balanced-match': [ '1.0.2' ],
+302 silly audit   'concat-map': [ '0.0.1' ],
+302 silly audit   minimist: [ '1.2.8' ],
+302 silly audit   wrappy: [ '1.0.2' ],
+302 silly audit   glob: [ '7.2.3' ],
+302 silly audit   'fs.realpath': [ '1.0.0' ],
+302 silly audit   inflight: [ '1.0.6' ],
+302 silly audit   'path-is-absolute': [ '1.0.1' ],
+302 silly audit   'block-stream': [ '0.0.9' ],
+302 silly audit   xtend: [ '4.0.2' ],
+302 silly audit   builtins: [ '1.0.3' ],
+302 silly audit   isexe: [ '2.0.0' ],
+302 silly audit   'process-nextick-args': [ '2.0.1' ],
+302 silly audit   'safe-buffer': [ '5.1.2' ],
+302 silly audit   'util-deprecate': [ '1.0.2' ]
+302 silly audit }
+303 silly tarball no local data for util-deprecate@https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz. Extracting by manifest.
+304 silly tarball no local data for safe-buffer@https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz. Extracting by manifest.
+305 silly tarball no local data for process-nextick-args@https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-2.0.1.tgz. Extracting by manifest.
+306 silly tarball no local data for isexe@https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz. Extracting by manifest.
+307 silly tarball no local data for builtins@https://registry.npmjs.org/builtins/-/builtins-1.0.3.tgz. Extracting by manifest.
+308 silly tarball no local data for xtend@https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz. Extracting by manifest.
+309 silly tarball no local data for block-stream@https://registry.npmjs.org/block-stream/-/block-stream-0.0.9.tgz. Extracting by manifest.
+310 silly tarball no local data for inflight@https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz. Extracting by manifest.
+311 silly tarball no local data for path-is-absolute@https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz. Extracting by manifest.
+312 silly tarball no local data for fs.realpath@https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz. Extracting by manifest.
+313 silly tarball no local data for glob@https://registry.npmjs.org/glob/-/glob-7.2.3.tgz. Extracting by manifest.
+314 silly tarball no local data for wrappy@https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz. Extracting by manifest.
+315 silly tarball no local data for minimist@https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz. Extracting by manifest.
+316 silly tarball no local data for balanced-match@https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz. Extracting by manifest.
+317 silly tarball no local data for brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz. Extracting by manifest.
+318 silly tarball no local data for minimatch@https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz. Extracting by manifest.
+319 silly tarball no local data for mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.6.tgz. Extracting by manifest.
+320 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.0.0.tgz. Extracting by manifest.
+321 silly tarball no local data for uid-number@https://registry.npmjs.org/uid-number/-/uid-number-0.0.6.tgz. Extracting by manifest.
+322 silly tarball no local data for tar@https://registry.npmjs.org/tar/-/tar-2.2.2.tgz. Extracting by manifest.
+323 silly tarball no local data for rimraf@https://registry.npmjs.org/rimraf/-/rimraf-2.7.1.tgz. Extracting by manifest.
+324 silly tarball no local data for once@https://registry.npmjs.org/once/-/once-1.4.0.tgz. Extracting by manifest.
+325 silly tarball no local data for fstream-ignore@https://registry.npmjs.org/fstream-ignore/-/fstream-ignore-1.0.5.tgz. Extracting by manifest.
+326 silly tarball no local data for fstream@https://registry.npmjs.org/fstream/-/fstream-1.0.12.tgz. Extracting by manifest.
+327 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-2.6.9.tgz. Extracting by manifest.
+328 silly tarball no local data for has-flag@https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz. Extracting by manifest.
+329 silly tarball no local data for shebang-regex@https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz. Extracting by manifest.
+330 silly tarball no local data for string_decoder@https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz. Extracting by manifest.
+331 silly tarball no local data for isarray@https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz. Extracting by manifest.
+332 silly tarball no local data for inherits@https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz. Extracting by manifest.
+333 silly tarball no local data for core-util-is@https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.3.tgz. Extracting by manifest.
+334 silly tarball no local data for sisteransi@https://registry.npmjs.org/sisteransi/-/sisteransi-1.0.5.tgz. Extracting by manifest.
+335 silly tarball no local data for kleur@https://registry.npmjs.org/kleur/-/kleur-3.0.3.tgz. Extracting by manifest.
+336 silly tarball no local data for readable-stream@https://registry.npmjs.org/readable-stream/-/readable-stream-1.1.14.tgz. Extracting by manifest.
+337 silly tarball no local data for through2@https://registry.npmjs.org/through2/-/through2-0.6.5.tgz. Extracting by manifest.
+338 silly tarball no local data for buffer-from@https://registry.npmjs.org/buffer-from/-/buffer-from-0.1.2.tgz. Extracting by manifest.
+339 silly tarball no local data for jsonfile@https://registry.npmjs.org/jsonfile/-/jsonfile-6.1.0.tgz. Extracting by manifest.
+340 silly tarball no local data for graceful-fs@https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz. Extracting by manifest.
+341 silly tarball no local data for which@https://registry.npmjs.org/which/-/which-2.0.2.tgz. Extracting by manifest.
+342 silly tarball no local data for universalify@https://registry.npmjs.org/universalify/-/universalify-2.0.1.tgz. Extracting by manifest.
+343 silly tarball no local data for shebang-command@https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz. Extracting by manifest.
+344 silly tarball no local data for path-key@https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz. Extracting by manifest.
+345 silly tarball no local data for color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz. Extracting by manifest.
+346 silly tarball no local data for duplexer2@https://registry.npmjs.org/duplexer2/-/duplexer2-0.0.2.tgz. Extracting by manifest.
+347 silly tarball no local data for concat-map@https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz. Extracting by manifest.
+348 silly tarball no local data for color-convert@https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz. Extracting by manifest.
+349 silly tarball no local data for supports-color@https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz. Extracting by manifest.
+350 silly tarball no local data for ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz. Extracting by manifest.
+351 silly tarball no local data for validate-npm-package-name@https://registry.npmjs.org/validate-npm-package-name/-/validate-npm-package-name-3.0.0.tgz. Extracting by manifest.
+352 silly tarball no local data for tmp@https://registry.npmjs.org/tmp/-/tmp-0.2.3.tgz. Extracting by manifest.
+353 silly tarball no local data for tar-pack@https://registry.npmjs.org/tar-pack/-/tar-pack-3.4.1.tgz. Extracting by manifest.
+354 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-7.6.3.tgz. Extracting by manifest.
+355 silly tarball no local data for prompts@https://registry.npmjs.org/prompts/-/prompts-2.4.2.tgz. Extracting by manifest.
+356 silly tarball no local data for hyperquest@https://registry.npmjs.org/hyperquest/-/hyperquest-2.1.3.tgz. Extracting by manifest.
+357 silly tarball no local data for fs-extra@https://registry.npmjs.org/fs-extra/-/fs-extra-10.1.0.tgz. Extracting by manifest.
+358 silly tarball no local data for envinfo@https://registry.npmjs.org/envinfo/-/envinfo-7.13.0.tgz. Extracting by manifest.
+359 silly tarball no local data for cross-spawn@https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.3.tgz. Extracting by manifest.
+360 silly tarball no local data for commander@https://registry.npmjs.org/commander/-/commander-4.1.1.tgz. Extracting by manifest.
+361 silly tarball no local data for chalk@https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz. Extracting by manifest.
+362 silly tarball no local data for create-react-app@https://registry.npmjs.org/create-react-app/-/create-react-app-5.0.1.tgz. Extracting by manifest.
+363 silly tarball no local data for readable-stream@https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.34.tgz. Extracting by manifest.
+364 silly tarball no local data for string_decoder@https://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz. Extracting by manifest.
+365 silly tarball no local data for isarray@https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz. Extracting by manifest.
+366 silly tarball no local data for readable-stream@https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.8.tgz. Extracting by manifest.
+367 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 651ms
+368 timing auditReport:getReport Completed in 662ms
+369 silly audit report {
+369 silly audit report   tar: [
+369 silly audit report     {
+369 silly audit report       id: 1089685,
+369 silly audit report       url: 'https://github.com/advisories/GHSA-3jfq-g458-7qm9',
+369 silly audit report       title: 'Arbitrary File Creation/Overwrite due to insufficient absolute path sanitization',
+369 silly audit report       severity: 'high',
+369 silly audit report       vulnerable_versions: '<3.2.2',
+369 silly audit report       cwe: [Array],
+369 silly audit report       cvss: [Object]
+369 silly audit report     },
+369 silly audit report     {
+369 silly audit report       id: 1095117,
+369 silly audit report       url: 'https://github.com/advisories/GHSA-5955-9wpr-37jh',
+369 silly audit report       title: 'Arbitrary File Creation/Overwrite on Windows via insufficient relative path sanitization',
+369 silly audit report       severity: 'high',
+369 silly audit report       vulnerable_versions: '<4.4.18',
+369 silly audit report       cwe: [Array],
+369 silly audit report       cvss: [Object]
+369 silly audit report     },
+369 silly audit report     {
+369 silly audit report       id: 1097493,
+369 silly audit report       url: 'https://github.com/advisories/GHSA-f5x3-32g6-xq36',
+369 silly audit report       title: 'Denial of service while parsing a tar file due to lack of folders count validation',
+369 silly audit report       severity: 'moderate',
+369 silly audit report       vulnerable_versions: '<6.2.1',
+369 silly audit report       cwe: [Array],
+369 silly audit report       cvss: [Object]
+369 silly audit report     }
+369 silly audit report   ]
+369 silly audit report }
+370 timing metavuln:packument:tar Completed in 21ms
+371 timing metavuln:cache:get:security-advisory:tar:Oa066nJpV2ox85F6qnk1N5eWmAmoWAMU7byYhWk4oYfHYrQ8aGHfCKRikfcy0dHDcKWKiPRc7Nz7R9fxKkj0Yw== Completed in 132ms
+372 timing metavuln:load:security-advisory:tar:1089685 Completed in 10ms
+373 timing metavuln:cache:get:security-advisory:tar:2lGtz15Gs28nRX11iCY/mSa25Ky4CfNVzD5qptDvtqdkLXPb/znmxdJ/4OrOyJZ2qQgFtnfxP9ee2xfimUMfuw== Completed in 125ms
+374 timing metavuln:load:security-advisory:tar:1095117 Completed in 8ms
+375 timing metavuln:cache:get:security-advisory:tar:xsfciMtNhQn+Vb692L8h5HEYBYUJ5Lhjy3bF//LOsKSn8tp0f1hbuDX26k9UtKJNPZjM5uuq2Cxlz3KwL19oJg== Completed in 135ms
+376 timing metavuln:load:security-advisory:tar:1097493 Completed in 6ms
+377 http fetch GET 200 https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz 1799ms (cache miss)
+378 timing reifyNode:node_modules/xtend Completed in 1970ms
+379 http fetch GET 200 https://registry.npmjs.org/builtins/-/builtins-1.0.3.tgz 1808ms (cache miss)
+380 timing reifyNode:node_modules/builtins Completed in 1972ms
+381 http fetch GET 200 https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz 1864ms (cache miss)
+382 timing reifyNode:node_modules/path-is-absolute Completed in 2051ms
+383 http fetch GET 200 https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz 1915ms (cache miss)
+384 timing reifyNode:node_modules/util-deprecate Completed in 2058ms
+385 http fetch GET 200 https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz 1842ms (cache miss)
+386 timing reifyNode:node_modules/brace-expansion Completed in 2066ms
+387 http fetch GET 200 https://registry.npmjs.org/once/-/once-1.4.0.tgz 1779ms (cache miss)
+388 timing reifyNode:node_modules/once Completed in 2079ms
+389 http fetch GET 200 https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-2.0.1.tgz 1944ms (cache miss)
+390 timing reifyNode:node_modules/process-nextick-args Completed in 2105ms
+391 timing metavuln:cache:put:security-advisory:tar:2lGtz15Gs28nRX11iCY/mSa25Ky4CfNVzD5qptDvtqdkLXPb/znmxdJ/4OrOyJZ2qQgFtnfxP9ee2xfimUMfuw== Completed in 1294ms
+392 timing metavuln:calculate:security-advisory:tar:1095117 Completed in 1428ms
+393 http fetch GET 200 https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz 1926ms (cache miss)
+394 warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+395 timing reifyNode:node_modules/inflight Completed in 2112ms
+396 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.0.0.tgz 1879ms (cache miss)
+397 timing reifyNode:node_modules/ms Completed in 2117ms
+398 http fetch GET 200 https://registry.npmjs.org/block-stream/-/block-stream-0.0.9.tgz 1947ms (cache miss)
+399 timing reifyNode:node_modules/block-stream Completed in 2122ms
+400 http fetch GET 200 https://registry.npmjs.org/uid-number/-/uid-number-0.0.6.tgz 1857ms (cache miss)
+401 warn deprecated uid-number@0.0.6: This package is no longer supported.
+402 timing reifyNode:node_modules/uid-number Completed in 2123ms
+403 http fetch GET 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.6.tgz 1892ms (cache miss)
+404 timing reifyNode:node_modules/mkdirp Completed in 2125ms
+405 http fetch GET 200 https://registry.npmjs.org/rimraf/-/rimraf-2.7.1.tgz 1835ms (cache miss)
+406 warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+407 timing reifyNode:node_modules/rimraf Completed in 2129ms
+408 http fetch GET 200 https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz 1775ms (cache miss)
+409 timing reifyNode:node_modules/inherits Completed in 2132ms
+410 http fetch GET 200 https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz 1802ms (cache miss)
+411 timing reifyNode:node_modules/shebang-regex Completed in 2148ms
+412 timing metavuln:cache:put:security-advisory:tar:Oa066nJpV2ox85F6qnk1N5eWmAmoWAMU7byYhWk4oYfHYrQ8aGHfCKRikfcy0dHDcKWKiPRc7Nz7R9fxKkj0Yw== Completed in 1368ms
+413 timing metavuln:calculate:security-advisory:tar:1089685 Completed in 1513ms
+414 timing metavuln:cache:put:security-advisory:tar:xsfciMtNhQn+Vb692L8h5HEYBYUJ5Lhjy3bF//LOsKSn8tp0f1hbuDX26k9UtKJNPZjM5uuq2Cxlz3KwL19oJg== Completed in 1350ms
+415 timing metavuln:calculate:security-advisory:tar:1097493 Completed in 1491ms
+416 timing metavuln:packument:tar-pack Completed in 0ms
+417 http fetch GET 200 https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz 1976ms (cache miss)
+418 timing reifyNode:node_modules/fs.realpath Completed in 2169ms
+419 http fetch GET 200 https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz 1966ms (cache miss)
+420 timing reifyNode:node_modules/wrappy Completed in 2171ms
+421 http fetch GET 200 https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz 1957ms (cache miss)
+422 timing reifyNode:node_modules/balanced-match Completed in 2173ms
+423 http fetch GET 200 https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz 2032ms (cache miss)
+424 timing metavuln:cache:get:security-advisory:tar-pack:3KXljJwoAr/NHejfU6kg41RmjF3Pg6M28t7ViuMjk5SYV3kYL9qyGZ417dIFb1Y8K+hhpo0sBWpskxrKhsZQzQ== Completed in 22ms
+425 timing metavuln:load:security-advisory:tar-pack:Oa066nJpV2ox85F6qnk1N5eWmAmoWAMU7byYhWk4oYfHYrQ8aGHfCKRikfcy0dHDcKWKiPRc7Nz7R9fxKkj0Yw== Completed in 11ms
+426 timing reifyNode:node_modules/isexe Completed in 2204ms
+427 http fetch GET 200 https://registry.npmjs.org/fstream-ignore/-/fstream-ignore-1.0.5.tgz 1890ms (cache miss)
+428 warn deprecated fstream-ignore@1.0.5: This package is no longer supported.
+429 timing reifyNode:node_modules/fstream-ignore Completed in 2203ms
+430 http fetch GET 200 https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz 1852ms (cache miss)
+431 timing reifyNode:node_modules/string_decoder Completed in 2204ms
+432 http fetch GET 200 https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.3.tgz 1846ms (cache miss)
+433 timing reifyNode:node_modules/core-util-is Completed in 2206ms
+434 http fetch GET 200 https://registry.npmjs.org/universalify/-/universalify-2.0.1.tgz 1829ms (cache miss)
+435 timing reifyNode:node_modules/universalify Completed in 2227ms
+436 http fetch GET 200 https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz 1828ms (cache miss)
+437 timing reifyNode:node_modules/shebang-command Completed in 2228ms
+438 http fetch GET 200 https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz 1902ms (cache miss)
+439 timing reifyNode:node_modules/has-flag Completed in 2245ms
+440 http fetch GET 200 https://registry.npmjs.org/jsonfile/-/jsonfile-6.1.0.tgz 1856ms (cache miss)
+441 timing reifyNode:node_modules/jsonfile Completed in 2245ms
+442 http fetch GET 200 https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz 1937ms (cache miss)
+443 timing reifyNode:node_modules/isarray Completed in 2291ms
+444 http fetch GET 200 https://registry.npmjs.org/sisteransi/-/sisteransi-1.0.5.tgz 1930ms (cache miss)
+445 timing reifyNode:node_modules/sisteransi Completed in 2292ms
+446 http fetch GET 200 https://registry.npmjs.org/buffer-from/-/buffer-from-0.1.2.tgz 1937ms (cache miss)
+447 timing reifyNode:node_modules/buffer-from Completed in 2308ms
+448 http fetch GET 200 https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz 1916ms (cache miss)
+449 timing reifyNode:node_modules/graceful-fs Completed in 2308ms
+450 http fetch GET 200 https://registry.npmjs.org/kleur/-/kleur-3.0.3.tgz 1959ms (cache miss)
+451 timing reifyNode:node_modules/kleur Completed in 2322ms
+452 http fetch GET 200 https://registry.npmjs.org/through2/-/through2-0.6.5.tgz 1958ms (cache miss)
+453 timing reifyNode:node_modules/through2 Completed in 2326ms
+454 http fetch GET 200 https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz 1916ms (cache miss)
+455 timing reifyNode:node_modules/concat-map Completed in 2331ms
+456 http fetch GET 200 https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz 1916ms (cache miss)
+457 timing reifyNode:node_modules/color-convert Completed in 2328ms
+458 http fetch GET 200 https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz 1919ms (cache miss)
+459 timing reifyNode:node_modules/supports-color Completed in 2334ms
+460 http fetch GET 200 https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz 1938ms (cache miss)
+461 timing reifyNode:node_modules/color-name Completed in 2343ms
+462 http fetch GET 200 https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz 1955ms (cache miss)
+463 timing reifyNode:node_modules/path-key Completed in 2356ms
+464 http fetch GET 200 https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz 1940ms (cache miss)
+465 timing reifyNode:node_modules/ansi-styles Completed in 2356ms
+466 http fetch GET 200 https://registry.npmjs.org/validate-npm-package-name/-/validate-npm-package-name-3.0.0.tgz 1940ms (cache miss)
+467 http fetch GET 200 https://registry.npmjs.org/duplexer2/-/duplexer2-0.0.2.tgz 1956ms (cache miss)
+468 timing reifyNode:node_modules/duplexer2 Completed in 2365ms
+469 http fetch GET 200 https://registry.npmjs.org/which/-/which-2.0.2.tgz 1980ms (cache miss)
+470 timing reifyNode:node_modules/which Completed in 2373ms
+471 http fetch GET 200 https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.3.tgz 1916ms (cache miss)
+472 http fetch GET 200 https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz 1902ms (cache miss)
+473 timing reifyNode:node_modules/tar-pack/node_modules/isarray Completed in 2375ms
+474 http fetch GET 200 https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz 2244ms (cache miss)
+475 timing reifyNode:node_modules/safe-buffer Completed in 2393ms
+476 timing reifyNode:node_modules/validate-npm-package-name Completed in 2384ms
+477 http fetch GET 200 https://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz 1912ms (cache miss)
+478 timing reifyNode:node_modules/tar-pack/node_modules/string_decoder Completed in 2386ms
+479 http fetch GET 200 https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz 1921ms (cache miss)
+480 timing reifyNode:node_modules/chalk Completed in 2381ms
+481 http fetch GET 200 https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz 2171ms (cache miss)
+482 timing reifyNode:node_modules/minimatch Completed in 2398ms
+483 http fetch GET 200 https://registry.npmjs.org/tmp/-/tmp-0.2.3.tgz 1973ms (cache miss)
+484 timing reifyNode:node_modules/tmp Completed in 2393ms
+485 http fetch GET 200 https://registry.npmjs.org/create-react-app/-/create-react-app-5.0.1.tgz 1930ms (cache miss)
+486 timing reifyNode:node_modules/create-react-app Completed in 2392ms
+487 timing reifyNode:node_modules/cross-spawn Completed in 2410ms
+488 http fetch GET 200 https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.34.tgz 1959ms (cache miss)
+489 http fetch GET 200 https://registry.npmjs.org/glob/-/glob-7.2.3.tgz 2250ms (cache miss)
+490 warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+491 timing reifyNode:node_modules/glob Completed in 2451ms
+492 http fetch GET 200 https://registry.npmjs.org/readable-stream/-/readable-stream-1.1.14.tgz 2086ms (cache miss)
+493 http fetch GET 200 https://registry.npmjs.org/hyperquest/-/hyperquest-2.1.3.tgz 2006ms (cache miss)
+494 timing reifyNode:node_modules/through2/node_modules/readable-stream Completed in 2472ms
+495 timing metavuln:cache:put:security-advisory:tar-pack:3KXljJwoAr/NHejfU6kg41RmjF3Pg6M28t7ViuMjk5SYV3kYL9qyGZ417dIFb1Y8K+hhpo0sBWpskxrKhsZQzQ== Completed in 282ms
+496 timing metavuln:calculate:security-advisory:tar-pack:Oa066nJpV2ox85F6qnk1N5eWmAmoWAMU7byYhWk4oYfHYrQ8aGHfCKRikfcy0dHDcKWKiPRc7Nz7R9fxKkj0Yw== Completed in 316ms
+497 timing metavuln:packument:create-react-app Completed in 0ms
+498 timing reifyNode:node_modules/readable-stream Completed in 2484ms
+499 http fetch GET 200 https://registry.npmjs.org/tar-pack/-/tar-pack-3.4.1.tgz 2059ms (cache miss)
+500 timing metavuln:cache:get:security-advisory:create-react-app:BAP5sjD/UipbJVBCija12WlnlurqvRCOfkHPDCK3St763W6JIxpLfRD1F9PMmW4GEaZmK6BFkh/Pye257xPpCw== Completed in 13ms
+501 timing metavuln:load:security-advisory:create-react-app:3KXljJwoAr/NHejfU6kg41RmjF3Pg6M28t7ViuMjk5SYV3kYL9qyGZ417dIFb1Y8K+hhpo0sBWpskxrKhsZQzQ== Completed in 14ms
+502 timing reifyNode:node_modules/hyperquest Completed in 2507ms
+503 timing reifyNode:node_modules/tar-pack Completed in 2529ms
+504 http fetch GET 200 https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz 2335ms (cache miss)
+505 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-4.1.1.tgz 2079ms (cache miss)
+506 timing reifyNode:node_modules/commander Completed in 2535ms
+507 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-2.6.9.tgz 2208ms (cache miss)
+508 timing reifyNode:node_modules/debug Completed in 2549ms
+509 timing reifyNode:node_modules/minimist Completed in 2555ms
+510 http fetch GET 200 https://registry.npmjs.org/envinfo/-/envinfo-7.13.0.tgz 2094ms (cache miss)
+511 timing reifyNode:node_modules/envinfo Completed in 2545ms
+512 http fetch GET 200 https://registry.npmjs.org/fstream/-/fstream-1.0.12.tgz 2231ms (cache miss)
+513 warn deprecated fstream@1.0.12: This package is no longer supported.
+514 timing reifyNode:node_modules/fstream Completed in 2562ms
+515 timing metavuln:cache:put:security-advisory:create-react-app:BAP5sjD/UipbJVBCija12WlnlurqvRCOfkHPDCK3St763W6JIxpLfRD1F9PMmW4GEaZmK6BFkh/Pye257xPpCw== Completed in 74ms
+516 timing metavuln:calculate:security-advisory:create-react-app:3KXljJwoAr/NHejfU6kg41RmjF3Pg6M28t7ViuMjk5SYV3kYL9qyGZ417dIFb1Y8K+hhpo0sBWpskxrKhsZQzQ== Completed in 101ms
+517 timing auditReport:init Completed in 1967ms
+518 timing reify:audit Completed in 2637ms
+519 http fetch GET 200 https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.8.tgz 2160ms (cache miss)
+520 timing reifyNode:node_modules/tar-pack/node_modules/readable-stream Completed in 2637ms
+521 http fetch GET 200 https://registry.npmjs.org/fs-extra/-/fs-extra-10.1.0.tgz 2239ms (cache miss)
+522 timing reifyNode:node_modules/fs-extra Completed in 2687ms
+523 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-7.6.3.tgz 2279ms (cache miss)
+524 timing reifyNode:node_modules/semver Completed in 2701ms
+525 http fetch GET 200 https://registry.npmjs.org/prompts/-/prompts-2.4.2.tgz 2331ms (cache miss)
+526 timing reifyNode:node_modules/prompts Completed in 2773ms
+527 http fetch GET 200 https://registry.npmjs.org/tar/-/tar-2.2.2.tgz 2578ms (cache miss)
+528 warn deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
+529 timing reifyNode:node_modules/tar Completed in 2855ms
+530 timing reify:unpack Completed in 2863ms
+531 timing reify:unretire Completed in 0ms
+532 timing build:queue Completed in 10ms
+533 timing build:link:node_modules/create-react-app Completed in 18ms
+534 timing build:link:node_modules/envinfo Completed in 17ms
+535 timing build:link:node_modules/mkdirp Completed in 16ms
+536 timing build:link:node_modules/rimraf Completed in 16ms
+537 timing build:link:node_modules/semver Completed in 16ms
+538 timing build:link:node_modules/which Completed in 15ms
+539 timing build:link Completed in 19ms
+540 timing build:deps Completed in 31ms
+541 timing build Completed in 32ms
+542 timing reify:build Completed in 33ms
+543 timing reify:trash Completed in 2ms
+544 timing reify:save Completed in 72ms
+545 timing reify Completed in 8095ms
+546 timing command:exec Completed in 197938ms
+547 verbose exit 0
+548 timing npm Completed in 198037ms
+549 info ok

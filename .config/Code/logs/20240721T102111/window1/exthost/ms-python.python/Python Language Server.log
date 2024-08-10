@@ -1,0 +1,26 @@
+2024-07-21 10:22:15.406 [info] (Client) Pylance async client (2024.7.1) started with python extension (2024.10.0)
+2024-07-21 10:22:19.372 [info] [Info  - 10:22:19 AM] (1128) Pylance language server 2024.7.1 (pyright version 1.1.369, commit 1168be71) starting
+2024-07-21 10:22:19.382 [info] [Info  - 10:22:19 AM] (1128) Server root directory: file:///home/gerberti/.vscode/extensions/ms-python.vscode-pylance-2024.7.1/dist
+2024-07-21 10:22:20.100 [info] [Info  - 10:22:20 AM] (1128) Starting service instance "<default>"
+2024-07-21 10:22:21.590 [info] [Info  - 10:22:21 AM] (1128) Setting pythonPath for service "<default>": "/bin/python3"
+2024-07-21 10:22:21.591 [info] [Info  - 10:22:21 AM] (1128) Setting environmentName for service "<default>": "3.11.2 (global)"
+2024-07-21 10:22:21.595 [info] [Info  - 10:22:21 AM] (1128) No include entries specified; assuming /<default workspace root>
+2024-07-21 10:22:21.600 [info] [Info  - 10:22:21 AM] (1128) Auto-excluding **/node_modules
+2024-07-21 10:22:21.602 [info] [Info  - 10:22:21 AM] (1128) Auto-excluding **/__pycache__
+2024-07-21 10:22:21.907 [info] [Info  - 10:22:21 AM] (1128) Auto-excluding **/.*
+2024-07-21 10:22:22.709 [info] [Info  - 10:22:22 AM] (1128) Assuming Python version 3.11.2.final.0
+2024-07-21 10:22:27.284 [info] [Error - 10:22:27 AM] (1128) File or directory "/<default workspace root>" does not exist.
+2024-07-21 10:22:27.399 [info] [Info  - 10:22:27 AM] (1128) No source files found.
+2024-07-21 10:22:30.153 [info] [Info  - 10:22:30 AM] (1128) Setting pythonPath for service "<default>": "/bin/python3"
+2024-07-21 10:22:30.162 [info] [Info  - 10:22:30 AM] (1128) Setting environmentName for service "<default>": "3.11.2 (global)"
+2024-07-21 10:22:30.162 [info] [Info  - 10:22:30 AM] (1128) No include entries specified; assuming /<default workspace root>
+2024-07-21 10:22:30.162 [info] [Info  - 10:22:30 AM] (1128) Auto-excluding **/node_modules
+2024-07-21 10:22:30.163 [info] [Info  - 10:22:30 AM] (1128) Auto-excluding **/__pycache__
+2024-07-21 10:22:30.163 [info] [Info  - 10:22:30 AM] (1128) Auto-excluding **/.*
+2024-07-21 10:22:30.393 [info] [Info  - 10:22:30 AM] (1128) Assuming Python version 3.11.2.final.0
+2024-07-21 10:22:31.601 [info] [Error - 10:22:31 AM] (1128) File or directory "/<default workspace root>" does not exist.
+2024-07-21 10:22:31.604 [info] [Info  - 10:22:31 AM] (1128) No source files found.
+2024-07-21 10:22:34.749 [info] [Info  - 10:22:34 AM] (1128) [FG] Long operation: parsing: file:///home/gerberti/.vscode/extensions/ms-python.vscode-pylance-2024.7.1/dist/typeshed-fallback/stdlib/builtins.pyi (2513ms)
+2024-07-21 10:22:35.381 [info] [Info  - 10:22:35 AM] (1128) Background analysis(1) root directory: file:///home/gerberti/.vscode/extensions/ms-python.vscode-pylance-2024.7.1/dist
+2024-07-21 10:22:35.381 [info] [Info  - 10:22:35 AM] (1128) Background analysis(1) started
+2024-07-21 10:22:38.014 [info] [Info  - 10:22:38 AM] (1128) [BG(1)] Long operation: SemanticTokens range 0:0 - 1:0 at file:///home/gerberti/print%20%28%22ciao%20mondo%22%29.py (2827ms)

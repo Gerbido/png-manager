@@ -1,0 +1,40 @@
+2024-08-10 23:26:48.363 [info] [main] Log level: Info
+2024-08-10 23:26:48.363 [info] [main] Validating found git in: "git"
+2024-08-10 23:26:49.132 [info] [main] Using git "2.39.2" from "git"
+2024-08-10 23:26:49.132 [info] [Model][doInitialScan] Initial repository scan started
+2024-08-10 23:26:49.594 [info] > git rev-parse --show-toplevel [175ms]
+2024-08-10 23:26:49.599 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-10 23:26:49.680 [info] > git rev-parse --show-toplevel [31ms]
+2024-08-10 23:26:49.680 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-10 23:26:49.753 [info] > git rev-parse --show-toplevel [16ms]
+2024-08-10 23:26:49.753 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-10 23:26:49.783 [info] > git rev-parse --show-toplevel [18ms]
+2024-08-10 23:26:49.783 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-10 23:26:49.853 [info] > git rev-parse --show-toplevel [10ms]
+2024-08-10 23:26:49.868 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-10 23:26:49.932 [info] > git rev-parse --show-toplevel [27ms]
+2024-08-10 23:26:49.932 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-10 23:26:49.987 [info] > git rev-parse --show-toplevel [4ms]
+2024-08-10 23:26:49.987 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-10 23:26:50.104 [info] > git rev-parse --show-toplevel [17ms]
+2024-08-10 23:26:50.105 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-10 23:26:50.165 [info] > git rev-parse --show-toplevel [13ms]
+2024-08-10 23:26:50.165 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-10 23:26:50.224 [info] > git rev-parse --show-toplevel [17ms]
+2024-08-10 23:26:50.224 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-10 23:26:50.502 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-08-10 23:32:00.855 [info] > git rev-parse --show-toplevel [7ms]
+2024-08-10 23:32:00.857 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-10 23:32:32.758 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-10 23:32:32.758 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-10 23:41:17.384 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-10 23:41:17.384 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-08-10 23:51:33.655 [info] > git rev-parse --show-toplevel [15ms]
+2024-08-10 23:51:33.674 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-08-10 23:51:33.725 [info] [Model][openRepository] Opened repository: /home/gerberti
+2024-08-10 23:51:33.745 [info] > git config --get commit.template [5ms]
+2024-08-10 23:51:33.758 [info] [Git][getRemotes] No remotes found in the git config file
+2024-08-10 23:51:33.759 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-08-10 23:51:33.760 [warning] [Git][getBranch] No such branch: master
+2024-08-10 23:51:34.614 [info] > git check-ignore -v -z --stdin [6ms]
+2024-08-10 23:51:36.828 [info] > git status -z -uall [3059ms] (cancelled)

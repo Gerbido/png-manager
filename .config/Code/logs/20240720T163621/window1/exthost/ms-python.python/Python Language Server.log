@@ -1,0 +1,24 @@
+2024-07-20 16:48:46.594 [info] (Client) Pylance async client (2024.7.1) started with python extension (2024.10.0)
+2024-07-20 16:48:48.090 [info] [Info  - 4:48:48 PM] (2314) Pylance language server 2024.7.1 (pyright version 1.1.369, commit 1168be71) starting
+2024-07-20 16:48:48.092 [info] [Info  - 4:48:48 PM] (2314) Server root directory: file:///home/gerberti/.vscode/extensions/ms-python.vscode-pylance-2024.7.1/dist
+2024-07-20 16:48:48.167 [info] [Info  - 4:48:48 PM] (2314) Starting service instance "<default>"
+2024-07-20 16:48:48.231 [info] [Info  - 4:48:48 PM] (2314) Setting pythonPath for service "<default>": "/bin/python3"
+2024-07-20 16:48:48.239 [info] [Info  - 4:48:48 PM] (2314) Setting environmentName for service "<default>": "3.11.2 (global)"
+2024-07-20 16:48:48.240 [info] [Info  - 4:48:48 PM] (2314) No include entries specified; assuming /<default workspace root>
+2024-07-20 16:48:48.246 [info] [Info  - 4:48:48 PM] (2314) Auto-excluding **/node_modules
+2024-07-20 16:48:48.248 [info] [Info  - 4:48:48 PM] (2314) Auto-excluding **/__pycache__
+2024-07-20 16:48:48.248 [info] [Info  - 4:48:48 PM] (2314) Auto-excluding **/.*
+2024-07-20 16:48:48.415 [info] [Info  - 4:48:48 PM] (2314) Assuming Python version 3.11.2.final.0
+2024-07-20 16:48:48.978 [info] [Error - 4:48:48 PM] (2314) File or directory "/<default workspace root>" does not exist.
+2024-07-20 16:48:48.984 [info] [Info  - 4:48:48 PM] (2314) No source files found.
+2024-07-20 16:48:49.245 [info] [Info  - 4:48:49 PM] (2314) Setting pythonPath for service "<default>": "/bin/python3"
+2024-07-20 16:48:49.246 [info] [Info  - 4:48:49 PM] (2314) Setting environmentName for service "<default>": "3.11.2 (global)"
+2024-07-20 16:48:49.247 [info] [Info  - 4:48:49 PM] (2314) No include entries specified; assuming /<default workspace root>
+2024-07-20 16:48:49.247 [info] [Info  - 4:48:49 PM] (2314) Auto-excluding **/node_modules
+2024-07-20 16:48:49.248 [info] [Info  - 4:48:49 PM] (2314) Auto-excluding **/__pycache__
+2024-07-20 16:48:49.248 [info] [Info  - 4:48:49 PM] (2314) Auto-excluding **/.*
+2024-07-20 16:48:49.469 [info] [Info  - 4:48:49 PM] (2314) Assuming Python version 3.11.2.final.0
+2024-07-20 16:48:49.761 [info] [Error - 4:48:49 PM] (2314) File or directory "/<default workspace root>" does not exist.
+2024-07-20 16:48:49.762 [info] [Info  - 4:48:49 PM] (2314) No source files found.
+2024-07-20 16:48:50.886 [info] [Info  - 4:48:50 PM] (2314) Background analysis(1) root directory: file:///home/gerberti/.vscode/extensions/ms-python.vscode-pylance-2024.7.1/dist
+2024-07-20 16:48:50.891 [info] [Info  - 4:48:50 PM] (2314) Background analysis(1) started

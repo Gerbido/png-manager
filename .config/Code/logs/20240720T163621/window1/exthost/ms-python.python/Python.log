@@ -1,0 +1,26 @@
+2024-07-20 16:48:43.574 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-07-20 16:48:43.574 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-07-20 16:48:43.574 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-07-20 16:48:43.574 [info] Experiment 'pythonTestAdapter' is active
+2024-07-20 16:48:43.574 [info] Python interpreter path: /bin/python3
+2024-07-20 16:48:45.524 [warning] Shell integration may not be active, environment activated may be overridden by the shell.
+2024-07-20 16:48:45.637 [info] Shell integration status changed, can confirm it's working.
+2024-07-20 16:48:45.677 [info] > pixi --version
+2024-07-20 16:48:45.704 [error] [Error: spawn pixi ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pixi',
+  path: 'pixi',
+  spawnargs: [ '--version' ]
+}
+2024-07-20 16:48:45.714 [warning] could not find a pixi interpreter for the interpreter at /bin/python3
+2024-07-20 16:48:45.804 [warning] could not find a pixi interpreter for the interpreter at /bin/python3
+2024-07-20 16:48:48.133 [info] Starting Pylance language server.
+2024-07-20 16:49:22.527 [info] CreateEnv Trigger - Workspace not found for Untitled-1
+2024-07-20 16:49:29.238 [info] Send text to terminal: /bin/python3 "/home/gerberti/print ("ciao mondo").py"
+2024-07-20 16:49:38.894 [info] Send text to terminal: /bin/python3 "/home/gerberti/print ("ciao mondo").py"
+2024-07-20 16:49:48.328 [info] Send text to terminal: /bin/python3 "/home/gerberti/print ("ciao mondo").py"
+2024-07-20 16:50:29.939 [info] Send text to terminal: /bin/python3 "/home/gerberti/print ("ciao mondo").py"

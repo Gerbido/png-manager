@@ -1,0 +1,20 @@
+2024-07-21 10:22:12.715 [info] Starting Python Locator /home/gerberti/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python-env-tools/bin/pet server
+2024-07-21 10:22:12.715 [info] Started Refreshing Environments
+2024-07-21 10:22:13.005 [info] Discovered env: /usr/bin/python3.9
+2024-07-21 10:22:13.940 [info] Discovered env: /bin/python3.9
+2024-07-21 10:22:14.863 [info] Discovered env: /usr/bin/python3
+2024-07-21 10:22:14.865 [info] Discovered env: /bin/python3
+2024-07-21 10:22:14.885 [info] Locator Conda took 234.911091ms
+2024-07-21 10:22:14.885 [info] Locator Homebrew took 12.124552ms
+2024-07-21 10:22:14.885 [info] Locator LinuxGlobalPython took 2.694719422s
+2024-07-21 10:22:14.886 [info] Locator PipEnv took 11.658µs
+2024-07-21 10:22:14.886 [info] Locator Poetry took 236.719µs
+2024-07-21 10:22:14.886 [info] Locator PyEnv took 189.917µs
+2024-07-21 10:22:14.886 [info] Locator Venv took 202ns
+2024-07-21 10:22:14.886 [info] Locator VirtualEnv took 1.31µs
+2024-07-21 10:22:14.886 [info] Locator VirtualEnvWrapper took 237ns
+2024-07-21 10:22:14.886 [info] Environments found using locators in 2.744828489s
+2024-07-21 10:22:14.886 [info] Environments in PATH found in 4.399652228s
+2024-07-21 10:22:14.886 [info] Environments in global virtual env paths found in 4.695039ms
+2024-07-21 10:22:14.886 [info] Environments in custom search paths found in 0ns
+2024-07-21 10:22:14.891 [info] Refresh completed in 4425ms

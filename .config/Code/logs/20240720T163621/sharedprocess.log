@@ -1,0 +1,13 @@
+2024-07-20 16:46:36.793 [info] Getting Manifest... supsugam.react-native-text-watcher
+2024-07-20 16:46:36.831 [info] Installing extension: supsugam.react-native-text-watcher {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/gerberti/.vscode/extensions/extensions.json","path":"/home/gerberti/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.91.1","date":"2024-07-09T22:08:12.169Z"}}
+2024-07-20 16:46:45.861 [info] Extension signature verification result for supsugam.react-native-text-watcher: Success. Executed: true. Duration: 1717ms.
+2024-07-20 16:46:47.177 [info] Extracted extension to file:///home/gerberti/.vscode/extensions/supsugam.react-native-text-watcher-1.0.2: supsugam.react-native-text-watcher
+2024-07-20 16:46:47.196 [info] Renamed to /home/gerberti/.vscode/extensions/supsugam.react-native-text-watcher-1.0.2
+2024-07-20 16:46:47.245 [info] Extension installed successfully: supsugam.react-native-text-watcher vscode-userdata:/home/gerberti/.vscode/extensions/extensions.json
+2024-07-20 16:46:47.300 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/gerberti/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/gerberti/.vscode/extensions/extensions.json.vsctmp'
+    at h.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19262)
+    at f (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19372)
+    at P.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36571)
+    at P.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:28919)
+    at async s.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14907)
+    at async V.vb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:119283)

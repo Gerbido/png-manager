@@ -1,0 +1,18 @@
+2024-07-20 16:08:06.225 [info] (Client) Pylance async client (2024.7.1) started with python extension (2024.10.0)
+2024-07-20 16:08:07.480 [info] [Info  - 4:08:07 PM] (1614) Pylance language server 2024.7.1 (pyright version 1.1.369, commit 1168be71) starting
+2024-07-20 16:08:07.481 [info] [Info  - 4:08:07 PM] (1614) Server root directory: file:///home/gerberti/.vscode/extensions/ms-python.vscode-pylance-2024.7.1/dist
+2024-07-20 16:08:51.962 [info] [Info  - 4:08:51 PM] (1614) Starting service instance "<default>"
+2024-07-20 16:08:52.129 [info] [Info  - 4:08:52 PM] (1614) Setting pythonPath for service "<default>": "/bin/python3"
+2024-07-20 16:08:52.130 [info] [Info  - 4:08:52 PM] (1614) Setting environmentName for service "<default>": "3.11.2 (global)"
+2024-07-20 16:08:52.135 [info] [Info  - 4:08:52 PM] (1614) No include entries specified; assuming /<default workspace root>
+2024-07-20 16:08:52.137 [info] [Info  - 4:08:52 PM] (1614) Auto-excluding **/node_modules
+2024-07-20 16:08:52.138 [info] [Info  - 4:08:52 PM] (1614) Auto-excluding **/__pycache__
+2024-07-20 16:08:52.139 [info] [Info  - 4:08:52 PM] (1614) Auto-excluding **/.*
+2024-07-20 16:08:52.213 [info] [Info  - 4:08:52 PM] (1614) Assuming Python version 3.11.2.final.0
+2024-07-20 16:08:52.653 [info] [Error - 4:08:52 PM] (1614) File or directory "/<default workspace root>" does not exist.
+2024-07-20 16:08:52.658 [info] [Info  - 4:08:52 PM] (1614) No source files found.
+2024-07-20 16:08:54.683 [info] [Info  - 4:08:54 PM] (1614) Background analysis(1) root directory: file:///home/gerberti/.vscode/extensions/ms-python.vscode-pylance-2024.7.1/dist
+2024-07-20 16:08:54.688 [info] [Info  - 4:08:54 PM] (1614) Background analysis(1) started
+2024-07-20 16:09:42.107 [info] [Error - 4:09:42 PM] Request textDocument/codeAction failed.
+2024-07-20 16:09:42.107 [info]   Message: Request textDocument/codeAction failed with message: index is out of range
+  Code: -32603 

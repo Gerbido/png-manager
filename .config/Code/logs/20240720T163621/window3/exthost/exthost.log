@@ -1,0 +1,7 @@
+2024-07-20 16:45:29.184 [info] Extension host with pid 2061 started
+2024-07-20 16:45:29.732 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-20 16:45:30.066 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-07-20 16:45:30.092 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-20 16:45:30.267 [info] Eager extensions activated
+2024-07-20 16:45:30.270 [info] Extension host terminating: renderer closed the MessagePort
+2024-07-20 16:45:30.307 [info] Extension host with pid 2061 exiting with code 0

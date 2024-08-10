@@ -1,0 +1,24 @@
+2024-07-20 16:05:29.806 [info] Extension host with pid 816 started
+2024-07-20 16:05:30.876 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-20 16:05:31.159 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-20 16:05:31.778 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-20 16:05:32.205 [info] Eager extensions activated
+2024-07-20 16:05:32.354 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 16:05:32.376 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-20 16:05:36.126 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-20 16:05:36.209 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-20 16:05:36.564 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-20 16:05:36.745 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-20 16:07:59.890 [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onDebugInitialConfigurations'
+2024-07-20 16:08:00.332 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onDebugInitialConfigurations', root cause: ms-python.debugpy
+2024-07-20 16:08:01.890 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onDebugInitialConfigurations'
+2024-07-20 16:08:04.012 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'api', root cause: ms-python.python
+2024-07-20 16:08:09.751 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2024-07-20 16:09:42.108 [error] [ms-python.python] provider FAILED
+2024-07-20 16:09:42.108 [error] Error: Request textDocument/codeAction failed with message: index is out of range
+	at ae (/home/gerberti/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:1947043)
+	at oe (/home/gerberti/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:1945003)
+	at Immediate.<anonymous> (/home/gerberti/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/out/client/extension.js:2:1941297)
+	at process.processImmediate (node:internal/timers:478:21)
+2024-07-20 16:09:44.918 [info] Extension host terminating: renderer closed the MessagePort
+2024-07-20 16:09:45.052 [info] Extension host with pid 816 exiting with code 0
