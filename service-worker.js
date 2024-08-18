@@ -1,2 +1,25 @@
-if(!self.define){let e,i={};const s=(s,t)=>(s=new URL(s+".js",t).href,i[s]||new Promise((i=>{if("document"in self){const e=document.createElement("script");e.src=s,e.onload=i,document.head.appendChild(e)}else e=s,importScripts(s),i()})).then((()=>{let e=i[s];if(!e)throw new Error(`Module ${s} didn’t register its module`);return e})));self.define=(t,n)=>{const r=e||("document"in self?document.currentScript.src:"")||location.href;if(i[r])return;let o={};const c=e=>s(e,r),l={module:{uri:r},exports:o,require:c};i[r]=Promise.all(t.map((e=>l[e]||c(e)))).then((e=>(n(...e),o)))}}define(["./workbox-1c3383c2"],(function(e){"use strict";self.skipWaiting(),e.clientsClaim(),e.precacheAndRoute([{url:"/index.html",revision:"ac910e3f97094e6a3728f21893831792"},{url:"/static/css/main.83547fb1.css",revision:null},{url:"/static/js/main.fc21bde2.js",revision:null},{url:"/static/js/main.fc21bde2.js.LICENSE.txt",revision:"b114cc85da504a772f040e3f40f8e46a"}],{})}));
-//# sourceMappingURL=service-worker.js.map
+const CACHE_NAME = 'png-manager-v1';
+const urlsToCache = [
+  '/',
+  '/index.html',
+  '/static/js/main.chunk.js',
+  '/static/js/0.chunk.js',
+  '/static/js/bundle.js',
+  '/manifest.json',
+  '/icon-192x192.png',
+  '/icon-512x512.png'
+];
+
+self.addEventListener('install', (event) => {
+  event.waitUntil(
+    caches.open(CACHE_NAME)
+      .then((cache) => cache.addAll(urlsToCache))
+  );
+});
+
+self.addEventListener('fetch', (event) => {
+  event.respondWith(
+    caches.match(event.request)
+      .then((response) => response || fetch(event.request))
+  );
+});
