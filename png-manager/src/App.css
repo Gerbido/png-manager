@@ -2,6 +2,21 @@
   text-align: center;
 }
 
+button {
+  background-color: #426844;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
